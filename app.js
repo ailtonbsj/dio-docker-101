@@ -11,7 +11,7 @@ app.use(express.json());
 app.use(bodyParser.urlencoded({extended: false}));
 
 app.get('/', function (req, res) {
-  res.send('Hello World!\n');
+  res.send('Hello World!<br/><a href="/users">List all users</a>');
 });
 
 // create user

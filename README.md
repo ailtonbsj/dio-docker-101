@@ -21,7 +21,7 @@ docker-compose up -d --build
 docker-compose down
 
 # Do a post request
-curl -X POST http://ip-container:port/create -H 'content-type: application/json' -d '{"name": "Whatsername"}'
+curl -X POST http://localhost:8080/create -H 'content-type: application/json' -d '{"name": "Whatsername"}'
 ```
 
 ## References
